@@ -26,11 +26,10 @@ For example on '/components/Services.js':
 
 function Services() {
 
-// Init script to include
+
 useEffect(() => {
 Aos.init({ duration: 2000 });
 }, []);
-// End of init script
 
 return (
 
