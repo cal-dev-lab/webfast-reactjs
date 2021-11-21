@@ -9,7 +9,6 @@ const Testimonial = () => {
         Testimonials
       </div>
       <div className="flex grid grid-cols-1 md:grid-cols-2 mx-auto px-10 space-x-4 space-y-4">
-        {/* insert testimonials cards here */}
         <TestimonialCardOne />
         <TestimonialCardTwo />
       </div>
