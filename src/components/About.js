@@ -22,7 +22,7 @@ function Services() {
         {/* Text */}
         <div className="text-center px-2 top-0 mb-10 items-center font-light text-4xl py-4 ">
           <div data-aos="fade-up" clasName="mb-4">Welcome to <a href="/#" className="text-indigo-500 underline">webfast</a>!</div>
-        	<p data-aos="fade-up" className="mt-4 text-sm text-gray-700">We have a plethora to offer new customers here at webfast. <br />
+        	<p data-aos="fade-up" className="mt-4 text-sm text-gray-700">We have a lot to offer new customers here at webfast. <br />
 		Here is but a few of our services we offer.
 	  </p>
 	</div>

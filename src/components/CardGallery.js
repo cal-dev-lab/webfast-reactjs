@@ -8,7 +8,7 @@ const CardGallery = () => {
     <div>
       <div className="w-full h-full p-10">
         {/* Heading */}
-        <div className="text-xl md:text-2xl lg:text-4xl font-bold text-gray-700 text-center items-center justify-center mb-6">
+        <div className="text-2xl lg:text-4xl font-bold text-gray-700 text-center items-center justify-center mb-6">
           Hosting Plans
         </div>
         <div className="text-md text-gray-500 text-center items-center justify-center px-12">
