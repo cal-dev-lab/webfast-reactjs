@@ -6,7 +6,7 @@ import Testimonial from "./Testimonial";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import CookieConsent, { Cookies } from "react-cookie-consent";
+import CookieConsent from "react-cookie-consent";
 
 function Home() {
   return (
