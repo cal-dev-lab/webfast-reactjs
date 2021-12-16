@@ -19,15 +19,18 @@ function Hero() {
           <p className="pt-9 text-left uppercase tracking-widest text-sm font-light">
             A whole new world
           </p>
-          <h1 className="text-indigo-500 text-6xl mb-4 text-left font-bold">webfast</h1>
-            <a href="/#" className="font-semibold">
-              Welcome to the{" "}
-              <a href="/#" className="text-indigo-500">
-                webfast
-              </a>{" "}
-              Family!
-            </a>
-	  <p className="text-sm mt-4 font-light mb-4 md:mb-0">
+          <h1 className="text-6xl mb-4">webfast</h1>
+          <a href="/#" className="font-semibold">
+            Welcome to the{" "}
+            <a
+              href="/#"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500"
+            >
+              webfast
+            </a>{" "}
+            Family!
+          </a>
+          <p className="text-sm mt-4 font-light mb-4 md:mb-0">
             The top-rated Hosting Solution for personal and small business
             websites in four consecutive years by the HostAdvice Community!{" "}
             <br />

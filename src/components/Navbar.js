@@ -18,7 +18,7 @@ const Navbar = ({ handleLogout }) => {
                 href="/#"
                 className="flex items-center py-5 px-2 text-gray-700"
               >
-                <span className="font-bold text-indigo-500 text-xl hover:text-indigo-600 transition duration-300">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 text-xl hover:text-indigo-600 transition duration-300">
                   webfast
                 </span>
               </a>
@@ -27,19 +27,19 @@ const Navbar = ({ handleLogout }) => {
             <div className="hidden md:flex items-center space-x-1 pl-10">
               <a
                 href="/#"
-                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:text-indigo-500 transition duration-500"
+                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:underline hover:text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 transition duration-500"
               >
                 Pricing
               </a>
               <a
                 href="/#"
-                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:text-indigo-500 transition duration-500"
+                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:underline hover:text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 transition duration-500"
               >
                 Why us?
               </a>
               <a
                 href="/#"
-                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:text-indigo-600 transition duration-500"
+                className="uppercase tracking-wide text-xs tracking-widest py-5 px-3 hover:underline hover:text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 transition duration-500"
               >
                 About
               </a>
@@ -48,8 +48,9 @@ const Navbar = ({ handleLogout }) => {
           {/* Secondary nav */}
           <div className="hidden md:flex items-center space-x-1">
             <button
+              type="button"
               onClick={handleLogout}
-              className="text-xs hover:bg-indigo-600 hover:text-white py-2 px-4 border-2 border-indigo-500 text-gray-700 rounded transition duration-300"
+              className="text-xs hover:text-white py-2 px-4 border-2 border-pink-500 text-gray-700 rounded transition duration-300 bg-gradient-to-r  hover:from-red-500 hover:to-pink-500"
             >
               LOG OUT
             </button>
@@ -79,19 +80,19 @@ const Navbar = ({ handleLogout }) => {
       <div className="mobile-menu hidden md:hidden">
         <a
           href="/#"
-          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-indigo-500 text-white hover:bg-white hover:text-black transition duration-500"
+          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white hover:text-black transition duration-500"
         >
           Pricing
         </a>
         <a
           href="/#"
-          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-indigo-500 text-white hover:bg-white hover:text-black transition duration-500"
+          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white  hover:text-black transition duration-500"
         >
           Why us?
         </a>
         <a
           href="/#"
-          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-indigo-500 text-white hover:bg-white hover:text-black transition duration-500"
+          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white rounded-b-xl shadow-xl hover:text-black transition duration-500"
         >
           About
         </a>

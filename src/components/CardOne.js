@@ -13,7 +13,7 @@ function CardOne() {
       data-aos="flip-left"
       data-aos-duration="1000"
     >
-      <div className="bg-gradient-to-r from-indigo-500 to-indigo-700 border border-indigo-700 border-opacity-10 rounded-md shadow-xl curser-pointer">
+      <div className="bg-gradient-to-tr from-red-500 to-pink-500 border border-indigo-700 border-opacity-10 rounded-md shadow-xl curser-pointer">
         {/* Card Header */}
         <div className="px-6 py-12 border-b-2 border-gray-200">
           <p className="text-3xl font-semibold text-center mb-4 text-white">
