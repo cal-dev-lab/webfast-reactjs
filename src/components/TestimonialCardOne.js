@@ -7,13 +7,15 @@ function TestimonialCardOne() {
         <img
           src="https://randomuser.me/api/portraits/men/44.jpg"
           alt="Customer Review Pciture"
-          className="rounded-xl"
+          className="rounded-lg"
+          width="250"
+          height="250"
         />
       </div>
       <div className="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
         <div className="flex justify-between item-center">
           <p className="text-gray-500 font-medium hidden md:block">
-            Customer Review
+            Thomas Parsons
           </p>
           <div className="flex items-center">
             <svg
@@ -48,7 +50,7 @@ function TestimonialCardOne() {
           The fastest hosting ever!
         </h3>
         <p className="md:text-lg text-gray-500 text-base">
-          <span className="font-bold text-indigo-500">webfast</span> has been so
+          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500">webfast</span> has been so
           good with their customer service, any problem I have had they have
           been able to solve! Definitely recommend them to anyone wanting to set
           up their own online business!
