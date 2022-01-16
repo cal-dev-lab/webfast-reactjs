@@ -31,24 +31,24 @@ function CardOne() {
         <div className="p-12 md:p-24 w-full bg-white">
           <ul className="space-y-3">
             <li className="flex items-center space-x-4">
-              <CheckIcon className="w-6 h-6 text-blue-700 flex-shrink-0" />
+              <CheckIcon className="w-6 h-6 text-pink-500 flex-shrink-0" />
               <p className="text-lg text-gray-700">Technical Support</p>
             </li>
             <li className="flex items-center space-x-4">
-              <CheckIcon className="w-6 h-6 text-blue-700 flex-shrink-0" />
+              <CheckIcon className="w-6 h-6 text-pink-500 flex-shrink-0" />
               <p className="text-lg text-gray-700">cPanel</p>
             </li>
             <li className="flex items-center space-x-4">
-              <CheckIcon className="w-6 h-6 text-blue-700 flex-shrink-0" />
+              <CheckIcon className="w-6 h-6 text-pink-500 flex-shrink-0" />
               <p className="text-lg text-gray-700">50GB Storage</p>
             </li>
             <li className="flex items-center space-x-4">
-              <CheckIcon className="w-6 h-6 text-blue-700 flex-shrink-0" />
+              <CheckIcon className="w-6 h-6 text-pink-500 flex-shrink-0" />
               <p className="text-lg text-gray-700">2GB Bandwidth</p>
             </li>
           </ul>
           {/* Call to action */}
-          <button className="mt-12 hover:bg-indigo-500 hover:text-white w-full py-4 px-8 rounded-lg text-lg whitespace-nowrap bg-white text-blue-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-60 transition-all">
+          <button className="mt-12 hover:bg-pink-500 hover:text-white w-full py-4 px-8 rounded-lg text-lg whitespace-nowrap bg-white text-pink-500 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-60 transition-all">
             Choose this plan
           </button>
         </div>
