@@ -37,7 +37,7 @@ function Services() {
           </p>
         </div>
         {/* Images */}
-        <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 px-2 sm:px-10 items-center justify-center">
+        <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 px-2 sm:px-10 items-center mx-auto justify-center">
           <li
             data-aos="fade-up"
             data-aos-delay="300"
