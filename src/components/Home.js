@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <About />
       <CardGallery />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Faq />
       <Contact />
       <Footer />
