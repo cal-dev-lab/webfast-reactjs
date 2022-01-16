@@ -28,7 +28,7 @@ function Hero() {
             >
               webfast
             </a>{" "}
-            Family!
+            family!
           </a>
           <p className="text-sm mt-4 font-light mb-4 md:mb-0">
             The top-rated Hosting Solution for personal and small business
