@@ -31,7 +31,7 @@ function Services() {
             </a>
             !
           </div>
-          <p data-aos="fade-up" className="mt-4 text-sm text-gray-700">
+          <p data-aos="fade-up" className="mt-4 text-sm md:text-lg text-gray-700">
             We have a lot to offer new customers here at webfast. <br />
             Here is but a few of our services we offer.
           </p>
