@@ -10,11 +10,9 @@ function Hero() {
   return (
     <div data-aos="fade-up" className="flex mx-auto max-w-5xl md:mt-24">
       <ul className="grid grid-cols-1 gap-8 md:grid-cols-2 px-10 md:gap-8">
-        {/* Practical */}
         <li className="md:text-center items-center rounded-lg md:h-full h-full px-3">
           <img src={modelMan} alt="Man" />
         </li>
-        {/* Reliable */}
         <li className="justify-center align-items mt-10 items-center h-full">
           <p className="pt-9 text-left uppercase tracking-widest text-sm font-light">
             A whole new world
@@ -33,8 +31,6 @@ function Hero() {
           <p className="text-sm mt-4 font-light mb-4 md:mb-0">
             The top-rated Hosting Solution for personal and small business
             websites in four consecutive years by the HostAdvice Community!{" "}
-            <br />
-            <br />
           </p>
         </li>
       </ul>
