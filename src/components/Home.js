@@ -7,6 +7,7 @@ import Faq from "./Faq";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import CookieConsent from "react-cookie-consent";
+import LearnMore from "./LearnMore";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <CardGallery />
       {/* <Testimonial /> */}
       <Faq />
+      <LearnMore />
       <Contact />
       <Footer />
       <CookieConsent
