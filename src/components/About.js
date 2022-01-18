@@ -16,28 +16,20 @@ function Services() {
     <div
       id="#pricing"
       data-aos="fade-up"
-      className="flex items-center mt-24 max-w-7xl mx-auto mb-10"
+      className="flex items-center mt-24 max-w-6xl mx-auto mb-10"
     >
       <div className="flex-1 mx-auto p-10 items-center">
         {/* Text */}
-        <div className="text-center px-2 top-0 mb-10 items-center font-light text-4xl py-4 ">
+        <div className="text-center top-0 mb-10 items-center py-4">
           <div data-aos="fade-up" clasName="mb-4">
-            Perks of{" "}
-            <a
-              href="/#"
-              className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 underline"
-            >
-              webfast
-            </a>
-            !
+            <h2 class="text-5xl sm:text-6xl text-left sm:text-center font-extrabold tracking-tight text-gray-900">
+              What we offer
+            </h2>
           </div>
-          <p data-aos="fade-up" className="mt-4 text-sm md:text-lg text-gray-700">
-            We have a lot to offer new customers here at webfast. <br />
-            Here is but a few of our services we offer.
-          </p>
+          
         </div>
         {/* Images */}
-        <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 px-2 sm:px-10 items-center mx-auto justify-center">
+        <ul className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 px-0 sm:px-10 items-center mx-auto justify-center">
           <li
             data-aos="fade-up"
             data-aos-delay="300"
