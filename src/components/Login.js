@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from 'react-parallax-tilt'
 
 const Login = (props) => {
   const {
@@ -50,12 +51,14 @@ const Login = (props) => {
           <div>
             {hasAccount ? (
               <>
-                <button
-                  className="block bg-gradient-to-tr from-red-500 to-pink-500 transition text-white duration-300 w-full p-2 rounded"
-                  onClick={handleLogin}
-                >
-                  Sign in
-                </button>
+                <Tilt>
+                  <button
+                    className="block bg-gradient-to-tr from-red-500 to-pink-500 transition text-white duration-300 w-full p-2 rounded"
+                    onClick={handleLogin}
+                  >
+                    Sign in
+                  </button>
+                </Tilt>
                 <p className="text-gray-700 text-sm mt-4">
                   Don't have an account?
                   <span
@@ -68,12 +71,14 @@ const Login = (props) => {
               </>
             ) : (
               <>
-                <button
-                  className="block bg-gradient-to-tr from-red-500 to-pink-500 transition text-white duration-300 w-full p-2 rounded"
-                  onClick={handleSignUp}
-                >
-                  Sign up
-                </button>
+                <Tilt>
+                  <button
+                    className="block bg-gradient-to-tr from-red-500 to-pink-500 transition text-white duration-300 w-full p-2 rounded"
+                    onClick={handleSignUp}
+                  >
+                    Sign up
+                  </button>
+                </Tilt>
                 <p className="text-gray-700 text-sm mt-4">
                   Have an account?{" "}
                   <span
