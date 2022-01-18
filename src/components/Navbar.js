@@ -115,9 +115,15 @@ const Navbar = ({ handleLogout }) => {
         </a>
         <a
           href="/#"
-          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white rounded-b-xl shadow-xl hover:text-black transition duration-500"
+          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white hover:text-black transition duration-500"
         >
           About
+        </a>
+        <a
+          onClick={handleLogout}
+          className="block uppercase tracking-wide py-6 px-24 text-sm tracking-widest bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-white hover:to-white rounded-b-xl shadow-xl hover:text-black transition duration-500"
+        >
+          Log out
         </a>
       </div>
       {/* END: Mobile Menu */}
