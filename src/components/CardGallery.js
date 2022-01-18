@@ -8,10 +8,10 @@ const CardGallery = () => {
     <div>
       <div className="w-full h-full p-10 font-light">
         {/* Heading */}
-        <div className="text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500 text-center items-center justify-center mb-6">
+        <h2 class="text-5xl sm:text-6xl text-left sm:text-center font-extrabold tracking-tight text-gray-900 mb-4">
           Hosting Plans
-        </div>
-        <div className="text-sm md:text-lg text-gray-700 text-center items-center justify-center">
+        </h2>
+        <div className="text-sm md:text-lg text-gray-700 sm:text-center items-center justify-center">
           We offer the fastest Linux servers fully equipped with your own
           dedicated memory and storage.
         </div>
