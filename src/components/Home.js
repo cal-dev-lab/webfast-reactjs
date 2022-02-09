@@ -3,7 +3,6 @@ import Hero from "./Hero";
 import About from "./About";
 import CardGallery from "./CardGallery";
 import Faq from "./Faq";
-import Contact from "./Contact";
 import Footer from "./Footer";
 import CookieConsent from "react-cookie-consent";
 import LearnMore from "./LearnMore";
@@ -16,7 +15,6 @@ function Home() {
       <CardGallery />
       <Faq />
       <LearnMore />
-      <Contact />
       <Footer />
       <CookieConsent
         location="bottom"
