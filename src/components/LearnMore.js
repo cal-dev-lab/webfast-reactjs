@@ -1,13 +1,8 @@
-import React, { useEffect } from 'react';
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
 
 function LearnMore() {
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-    }, []);
     return (
-        <div className="bg-gray-50" data-aos="fade-up">
+        <div className="bg-gray-50">
             <div className="max-w-7xl mx-auto py-12 p-10 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     <span className="block">Want to experience the way forward?</span>
