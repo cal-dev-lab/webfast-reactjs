@@ -13,6 +13,7 @@ function Services() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
+
     <div
       id="#pricing"
       data-aos="fade-up"
