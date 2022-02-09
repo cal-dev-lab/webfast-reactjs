@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "./Hero";
 import About from "./About";
 import CardGallery from "./CardGallery";
-import Testimonial from "./Testimonial";
 import Faq from "./Faq";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -15,7 +14,6 @@ function Home() {
       <Hero />
       <About />
       <CardGallery />
-      {/* <Testimonial /> */}
       <Faq />
       <LearnMore />
       <Contact />
